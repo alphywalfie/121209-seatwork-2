@@ -30,7 +30,7 @@ get '/reserve' do
 	erb :reserve
 end
 
-post '/confirm' do
+get '/confirm' do
 	@room_confirm = Room.new(params[:name], params[:type], params[:available])
 	erb :confirm
 end

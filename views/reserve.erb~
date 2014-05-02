@@ -14,7 +14,7 @@
 	<p>
 	We hope to see you soon.</p>
 	<p>
-	<form method = "POST" action ="/confirm">
+	<form method = "GET" action ="/confirm">
 	Name: <input type = "text" name = "name">
 	</p>
 	<p> 
